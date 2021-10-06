@@ -11,3 +11,18 @@ class encap{
 
 	void setEmpName(String newvalue){ name = newvalue;}
 }
+
+
+class Encapsulation{
+
+	public static void main (String args[]){
+	
+	Encapsulation obj = new Encapsulation();
+	obj.setEmpid(1);
+	obj.setEmpName("dytydyw");
+
+	System.out.println(obj.getEmpid);
+	System.out.println(obj.getEmpName);
+	}
+
+}
