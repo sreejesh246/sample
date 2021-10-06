@@ -1,0 +1,13 @@
+class encap{
+
+	private int id;
+	private String name;
+	
+
+	int getEmpid(){return id;}
+	String getEmpName(){return name;}
+
+	void setEmpid(int newvalue){id = newvalue;}
+
+	void setEmpName(String newvalue){ name = newvalue;}
+}
